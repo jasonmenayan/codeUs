@@ -27,7 +27,7 @@ var CodersLanguages = require('../app/collections/coderslanguages');
 var CoderTechnology = require('../app/models/codertechnology');
 var CodersTechnologies = require('../app/collections/coderstechnologies');
 
-var token = '1ce7e4e705d292beda12fb0a2ef4c39ef780c2e7'; // do not upload to GitHub with this token assigned explicitly!
+var token = '3fb71cff3e9b3ac84c3e73db24a8d02007e54bd0'; // do not upload to GitHub with this token assigned explicitly!
 
 var stackOptions = {
 	url: 'https://api.stackexchange.com/2.2/users?key=TKQV9fx1oXQhozGO*SGQNA((&access_token=saN8CDoS7M8lbHLZj(mC2w))&pagesize=100&order=desc&sort=reputation&site=stackoverflow&filter=!Ln4IB)_.hsRjrBGzKe*i*W&page=',

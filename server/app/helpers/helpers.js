@@ -13,7 +13,7 @@ var CodersTechnologies = require('../collections/coderstechnologies');
 var rp = require('request-promise');
 var bb = require('bluebird');
 var _ = require('underscore');
-var token = '1ce7e4e705d292beda12fb0a2ef4c39ef780c2e7';// add one of our tokens 
+var token = '3fb71cff3e9b3ac84c3e73db24a8d02007e54bd0';// add one of our tokens 
                                                        // do not push this file with token
                                                        // to GitHub!
 module.exports = api = {

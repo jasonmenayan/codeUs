@@ -22,7 +22,7 @@ var Languages = require('../app/collections/languages');
 var CoderLanguage = require('../app/models/coderlanguage');
 var CodersLanguages = require('../app/collections/coderslanguages');
 
-var token = '431a18f6f7e3371a157019a522d320e939eac28c'; // do not upload to GitHub with this token assigned explicitly!
+var token = '3fb71cff3e9b3ac84c3e73db24a8d02007e54bd0'; // do not upload to GitHub with this token assigned explicitly!
 
 module.exports = function (app) {
 

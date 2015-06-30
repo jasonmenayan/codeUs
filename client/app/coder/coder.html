@@ -1,20 +1,20 @@
 <div id='user-container'>
   <div class='username'> 
    <img src="{{coder.data.avatar_url}}" class="avatar img-responsive"></img>
-    <h1>{{coder.data.login}}</h1>
+    <p class="head">{{coder.data.name}}</p>
+    <p class="subhead"><img src="../app/assets/octocat.png" height="40" width="40"/> <a href="https://github.com/{{coder.data.login}}">{{coder.data.login}}</a></p>
+    <p class="subhead"><img src="../app/assets/location.png" height="40" width="40"/> {{coder.data.location}}</p>
   </div>
 
- 
-
-
-  <div class='location'>
-    {{user.location}}
-  </div>
-
-  <div class='languages'>
-    <h2>Languages</h2>
-
+  <div class='languages row'>
+   <div class="col-md-4"></div>
+  <div class="col-md-4">
     <table class='language table'>
+      <tr>
+        <td colspan="2">
+          <p class="sectionheader">Languages</p>
+        </td>
+      </tr>
       <tr class='language-experience' ng-repeat='(key, value) in coder.data.languages'>
         <td class='language'>
           {{key}}
@@ -25,11 +25,19 @@
 
       </tr>
     </table>
+    </div>
+    <div class="col-md-4"></div>
   </div>
 
-  <div class='technologies'>
-    <h2>Technologies</h2>
+  <div class='technologies row'>
+     <div class="col-md-4"></div>
+  <div class="col-md-4">
     <table class='technologies table'>
+      <tr>
+        <td colspan="2">
+          <p class="sectionheader">Technologies</p>
+        </td>
+      </tr>
       <tr class='technology-experience' ng-repeat='(key, value) in coder.data.technologies'>
         <td class='technology'>
           {{key}}
@@ -40,11 +48,19 @@
 
       </tr>
     </table>
+       <div class="col-md-4"></div>
+  </div>
   </div>
 
-  <div class='cred'>
-    <h2> Github Cred</h2>
+  <div class='cred row'>
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
     <table class='cred table'>
+          <tr>
+        <td colspan="2">
+          <p class="sectionheader">GitHub Cred</p>
+        </td>
+      </tr>
       <tr class='notables' ng-repeat='(key, value) in coder.data.cred'>
         <td class='cred'>
           {{key}}
@@ -55,7 +71,8 @@
 
       </tr>
     </table>
-
+     <div class="col-md-4"></div>
+  </div>
   </div>
 
   
